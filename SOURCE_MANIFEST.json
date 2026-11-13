@@ -1,0 +1,1160 @@
+{
+  "version": "0.1.0-preview1-rc10",
+  "qualification": "Limited SDL2 keyboard preview. See CHANGELOG.md and PREVIEW.md.",
+  "runtime_archives": {
+    "comanche-preview1-rc10-windows.zip": "7d91b5b68cc54fc40919e0068a4a40612d924e9435d5cc4e0e7ef2fd5fb9a9d2",
+    "comanche-preview1-rc10-linux.zip": "58c6268be1b70364bf1162fa774a486bc1cdc714c8b7c4fa37917e585bc67a9d"
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 128,
+      "sha256": "c5ef296538acd147fc7d05d2f7334ec338b760d5d38d32357d42acec421228c6"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 757,
+      "sha256": "51be043c656b2891ca98290af95f99e4a98e682f474dfe3ced8f8e46e3dba35c"
+    },
+    {
+      "path": "BUILDING.md",
+      "bytes": 3556,
+      "sha256": "73198e7cc86f8c8c2929eb71aa040cd52cf214a717dff60a6a26c2aa39bb4f74"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 1925,
+      "sha256": "acdbd936807e5737f3d0ac8bbb319b051870c0b15e8965ff8b08bb8b95179b7a"
+    },
+    {
+      "path": "cmake/Diagnostics.cmake",
+      "bytes": 807,
+      "sha256": "11e80a9bc304ea2fb5809b62600c10add8d199a256901c7cc76f5ca20ce3f02f"
+    },
+    {
+      "path": "cmake/OpenXr.cmake",
+      "bytes": 873,
+      "sha256": "078a2f6b4c02519585795baa708a43362d81b6eb35cd04a9311d3c5bfe3b812a"
+    },
+    {
+      "path": "cmake/Runtime.cmake",
+      "bytes": 1286,
+      "sha256": "4569d0111d1ab8bc689394edd04f944c6e2eeb54fd022bf7a4565fec5573cd87"
+    },
+    {
+      "path": "cmake/SdlHost.cmake",
+      "bytes": 3387,
+      "sha256": "7d6f3e767a6f789e5daa4bf1c7b64917f7124d5bcacc5a14113ee464634e909d"
+    },
+    {
+      "path": "cmake/Tests.cmake",
+      "bytes": 1342,
+      "sha256": "8d064104262e68400b1fd22c8359e8b43f8b2c47c84ff0e8fca8783423bfcf41"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "bytes": 868,
+      "sha256": "3787e10aca50b7fe1f603c0c3d9c352a3245040742b54ba21cf3d61fec0833ea"
+    },
+    {
+      "path": "COPYING",
+      "bytes": 17995,
+      "sha256": "8674f5aabf4dd033831e7148a39184d8579e50c385da61a7d8bac6a5dd11c6da"
+    },
+    {
+      "path": "host/flight_host.hpp",
+      "bytes": 1932,
+      "sha256": "fd7b581c65c60b1c275aa0af0705a40c48492bba5e583235cb7819ebb5fed254"
+    },
+    {
+      "path": "host/main.cpp",
+      "bytes": 1620,
+      "sha256": "c705a12dfd6690fe488cc351f1fdf21bbfad1384b48f1f733d471e0e70ed39f4"
+    },
+    {
+      "path": "host/openxr_runtime.cpp",
+      "bytes": 5545,
+      "sha256": "5b0ba8ebeb780a5bd21721990b5e1dbdc19f1d83014c15e0a1f8a474145db666"
+    },
+    {
+      "path": "host/openxr_runtime.hpp",
+      "bytes": 878,
+      "sha256": "159381888c5aa7546b746f3aaffa7ff23a9023bccfd8b724ec9852c1bf9110e1"
+    },
+    {
+      "path": "host/pending_input.hpp",
+      "bytes": 1112,
+      "sha256": "2234586e89a0890251d19044c4d6f3d1b27e659313b914b60f05eacb7adcadb4"
+    },
+    {
+      "path": "host/presentation_mailbox.hpp",
+      "bytes": 608,
+      "sha256": "dfe920631e83fb4563aad8669ba72a05d270dba24304d3111d615bbb6c13307b"
+    },
+    {
+      "path": "host/profile.hpp",
+      "bytes": 1887,
+      "sha256": "602285b55aceafd3fee6a4ea074af2ab0999ad7eec92684304c560b2c4779c3e"
+    },
+    {
+      "path": "host/sdl_audio.cpp",
+      "bytes": 3287,
+      "sha256": "dd5850824f1de6a16ff237cae72f9407af7882fc2600093f66da53700b4d8afc"
+    },
+    {
+      "path": "host/sdl_audio.hpp",
+      "bytes": 465,
+      "sha256": "7f7502e7e123cdb090d6b540032b9f5d0345b3a46fb38a995f765139f0ea1245"
+    },
+    {
+      "path": "host/sdl_common.hpp",
+      "bytes": 727,
+      "sha256": "d1207866b7f1635c70979d702b0c7bd68b50b1d467c74cced7d87a2582b98924"
+    },
+    {
+      "path": "host/sdl_controller.cpp",
+      "bytes": 6515,
+      "sha256": "361932ced626b3e9ca969ea98976bd0d02cc096303f5b5e59bd0108f4eb6dc13"
+    },
+    {
+      "path": "host/sdl_controller.hpp",
+      "bytes": 1060,
+      "sha256": "7a7ece54b651383718bd9734f80c062719174f955cd27aaf1886dc62d8cbf086"
+    },
+    {
+      "path": "host/sdl_host.cpp",
+      "bytes": 13071,
+      "sha256": "9d7036595136bd9036e4a0c7ae82b8440c5dd696798999e2d0867a1dae46b4a9"
+    },
+    {
+      "path": "host/sdl_host.hpp",
+      "bytes": 894,
+      "sha256": "6dc669d2bc6744e34349fe49cf22d47ae13b05fb72e39b3a4d293bd267307f25"
+    },
+    {
+      "path": "host/session_main.cpp",
+      "bytes": 3808,
+      "sha256": "9f7718fd8c2fcb7e298400c207d7dec60118e33ad8805824eeb61cf5d1bacdec"
+    },
+    {
+      "path": "host/settings_profile.hpp",
+      "bytes": 1625,
+      "sha256": "7f25689f7c2a1fa15760d409ae6cedd8518e90b9479ea44152e96c8f17f8a007"
+    },
+    {
+      "path": "host/viewer.cpp",
+      "bytes": 9812,
+      "sha256": "1dd82037240b6ad39f5f62d234324528fa316f641ce5987042d1e374ebf047d3"
+    },
+    {
+      "path": "include/comanchecd/assets.hpp",
+      "bytes": 3707,
+      "sha256": "d0de2b801ea219d518fc698eb54c2682c970db4cdcbbcb9cab0d1ce5318569f6"
+    },
+    {
+      "path": "include/comanchecd/audio.hpp",
+      "bytes": 8458,
+      "sha256": "8225d9a6aa61bf6b0a8ef1aa934a81c7e771e953d1df27af4808b012bcdf171f"
+    },
+    {
+      "path": "include/comanchecd/audio_scheduler.hpp",
+      "bytes": 2853,
+      "sha256": "8730f3c2cf0368e2166d29a66e2981f7d7cb0b0def0a897ed0d9f5dfa8ec41af"
+    },
+    {
+      "path": "include/comanchecd/callback_audio.hpp",
+      "bytes": 1602,
+      "sha256": "d8807e4bcb19c781e987cf5bd8b116cbe635d6a93c0ef4e6d0249177a5952154"
+    },
+    {
+      "path": "include/comanchecd/cockpit.hpp",
+      "bytes": 6111,
+      "sha256": "94da3d129bddbafd00e05f1d274a413be2f4ea4dedc53c236b6d5a8e26270e69"
+    },
+    {
+      "path": "include/comanchecd/cpu_work.hpp",
+      "bytes": 848,
+      "sha256": "a0d28f53eb2ae516c7c1ff256de7d36b20c1bef561235b5d71084daed3613da5"
+    },
+    {
+      "path": "include/comanchecd/debrief.hpp",
+      "bytes": 830,
+      "sha256": "7cb632c4249e7f40d3baa438f51aa1a7fc61a7a0f01e1a3de3da20c1bfb3bb00"
+    },
+    {
+      "path": "include/comanchecd/effects.hpp",
+      "bytes": 1432,
+      "sha256": "7b322836d777c64d997a4346360bf114e1b6fcb12309164726ebc3529066727b"
+    },
+    {
+      "path": "include/comanchecd/execution_clock.hpp",
+      "bytes": 655,
+      "sha256": "ed2c83725a97f12eec012ccb0811b6b61c14f1239d1e600e372029a242529c50"
+    },
+    {
+      "path": "include/comanchecd/flight.hpp",
+      "bytes": 4765,
+      "sha256": "995420bf0c0f42189a4fa7cd1b0c9363358f113824dc510017919468179254cf"
+    },
+    {
+      "path": "include/comanchecd/frontend.hpp",
+      "bytes": 3207,
+      "sha256": "efb623cefbe53117af79ea8aeac4d9be480af1c3c8208165e8bcf1ac406c1882"
+    },
+    {
+      "path": "include/comanchecd/gameplay.hpp",
+      "bytes": 2572,
+      "sha256": "2124e7a3eb229ea14e80819a637b55ecf65ae2abc8e06a1e03f7d312864ae896"
+    },
+    {
+      "path": "include/comanchecd/keyboard.hpp",
+      "bytes": 1137,
+      "sha256": "d798205fb6ad78550d0d3d94c451aa98a1d1a3f585b100a7bb46d49e3e821df7"
+    },
+    {
+      "path": "include/comanchecd/menu_renderer.hpp",
+      "bytes": 4170,
+      "sha256": "233d6d2ff56940291384790e24aff063bf7c00c7d525e8cdadf3c771ac0780bc"
+    },
+    {
+      "path": "include/comanchecd/mission.hpp",
+      "bytes": 1741,
+      "sha256": "ab80b447ccbf7069fd8465c222c34312c83ceb70d0bf56aa58587651909208af"
+    },
+    {
+      "path": "include/comanchecd/options.hpp",
+      "bytes": 3168,
+      "sha256": "c0edc0fa466d31db46d848d6ce6bf08d383804532cc3c71a839a53b447415c17"
+    },
+    {
+      "path": "include/comanchecd/pilot.hpp",
+      "bytes": 3923,
+      "sha256": "af38da058a5febf1df30184d862ef7397580d173541abbe52ed3ba5533339b0f"
+    },
+    {
+      "path": "include/comanchecd/playback.hpp",
+      "bytes": 2303,
+      "sha256": "ef55843bab46c2f5e6a89a7b0cbeddad5967c3a9bd04cf28d141f20d7631964c"
+    },
+    {
+      "path": "include/comanchecd/presentation.hpp",
+      "bytes": 537,
+      "sha256": "abb66755c845bed38ac6e7100de7c31116aadb45d6bc1c2d8b398be23a2aabcb"
+    },
+    {
+      "path": "include/comanchecd/scene.hpp",
+      "bytes": 3252,
+      "sha256": "9359f325f1a03e666b232dc03fc63633c8c0b89b6589f7480bd92f0f9470103f"
+    },
+    {
+      "path": "include/comanchecd/session.hpp",
+      "bytes": 3473,
+      "sha256": "6b3c5edfda1c964ed78bae78eb6851d2314f7437f5afb75f8089e7e16a0880c7"
+    },
+    {
+      "path": "include/comanchecd/sound_device.hpp",
+      "bytes": 552,
+      "sha256": "90c468b7fb043046d1404c9f7e24d510913e849f5a912280811738ee2bd14c98"
+    },
+    {
+      "path": "include/comanchecd/timing.hpp",
+      "bytes": 925,
+      "sha256": "7f3b649ce65f33bf93de4db233f75f6f372e56357b03fb0add2ff1476b1e27d0"
+    },
+    {
+      "path": "include/comanchecd/training.hpp",
+      "bytes": 3320,
+      "sha256": "b64ec99f0368c2f82dd809f0ad9f1d2a1ab4827e237fd82374b5f84bf4b87952"
+    },
+    {
+      "path": "include/comanchecd/video_timing.hpp",
+      "bytes": 488,
+      "sha256": "4f22cfb023c491732eccb682c96fd7f0046dae3c4500b5dd8a3857e9955215ac"
+    },
+    {
+      "path": "include/comanchecd/world_renderer.hpp",
+      "bytes": 3180,
+      "sha256": "192ae8832463c22fb50c0c49ea527f601fb2b7fdef9d5cd8b2cbe3859f24458b"
+    },
+    {
+      "path": "LICENSE-MIT",
+      "bytes": 1084,
+      "sha256": "4b481c3f734fdbf7c18e50c60f8ba0edf59a02d8e2e7c40c799e4102a1f65ccf"
+    },
+    {
+      "path": "PREVIEW.md",
+      "bytes": 7719,
+      "sha256": "18fa106e2c7e070b7230bfe086b8bc3ec3f4bcd4ba0546be0cf03225be466a00"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3886,
+      "sha256": "bfdca678582a30108f43a9a63e6940fa923b81fe05dc9246fa008e32cd740362"
+    },
+    {
+      "path": "SDL2-LICENSE.txt",
+      "bytes": 884,
+      "sha256": "97f35b302b361680ec1e891e95d2d52097bb95abff361434916d99dc1305f127"
+    },
+    {
+      "path": "src/assets.cpp",
+      "bytes": 29767,
+      "sha256": "81083478900add829ebfb8a59d74bb1c7e423ff16abbd7357740c16e582ab5a5"
+    },
+    {
+      "path": "src/audio.cpp",
+      "bytes": 73057,
+      "sha256": "cb00e61b39f823369f6ec923737a0d0b9e22a09a337f277052c98776a9e82957"
+    },
+    {
+      "path": "src/audio_playback.cpp",
+      "bytes": 2099,
+      "sha256": "2947166359cf9090e3cb7601081f71ff6f363caf89ac3a2d5474486cba070111"
+    },
+    {
+      "path": "src/audio_scheduler.cpp",
+      "bytes": 42509,
+      "sha256": "8e35eca3122ae9c403ee9085882924f3c1014b82e51c59329264ebeff42437eb"
+    },
+    {
+      "path": "src/callback_audio.cpp",
+      "bytes": 9275,
+      "sha256": "1c1b5a639c6f8f85f69fbcde31b8c8af6fd46662fb61df99a50aea9898199dd1"
+    },
+    {
+      "path": "src/cockpit.cpp",
+      "bytes": 47594,
+      "sha256": "d7ba5f1e7e83a8437393e7aa360d9139ba652fdd6324ebceb9f8e7b8d1064048"
+    },
+    {
+      "path": "src/color_metric.hpp",
+      "bytes": 2174,
+      "sha256": "df35808f9392ecac9fdba37546ee69a2a833748e6c85e79c72244c47852dcc1b"
+    },
+    {
+      "path": "src/controller_contact_response.cpp",
+      "bytes": 2695,
+      "sha256": "6115e9d0e58db78c492d30fea0996fe401f338881a9a1a2427b95ebdea28371c"
+    },
+    {
+      "path": "src/controller_contact_response.hpp",
+      "bytes": 429,
+      "sha256": "7ff60a553b36a97e450a49c62465321d2e067172431f2519df16470097df7647"
+    },
+    {
+      "path": "src/controller_contacts.cpp",
+      "bytes": 1404,
+      "sha256": "77a6768bec1b3bc209b4bc7e52479ef1a382b80f29c3d9fa6befd310c3bf026a"
+    },
+    {
+      "path": "src/controller_contacts.hpp",
+      "bytes": 253,
+      "sha256": "387cf0fff9a00069d1a67d32b03697ce0275e303e9cdf81436a25ec937b83535"
+    },
+    {
+      "path": "src/debrief.cpp",
+      "bytes": 8293,
+      "sha256": "abc898090a6b48c0649d99a09e1b6bb42ed4c097acc86b8c7c1d695996d4b388"
+    },
+    {
+      "path": "src/dsp_timing.hpp",
+      "bytes": 758,
+      "sha256": "9bbc23512c40a72e3351fca20a083272fdafd44928f71cabf8211708e5603a39"
+    },
+    {
+      "path": "src/effects.cpp",
+      "bytes": 10413,
+      "sha256": "4f6da2072fefaec786c19b63f40901f217571a9bc04e180add654c055e570e8a"
+    },
+    {
+      "path": "src/fanfare_timing.cpp",
+      "bytes": 6867,
+      "sha256": "f225a9475497dc38f32bf323953ab44c3ce12845a51a2c02f1c3fddcd3429422"
+    },
+    {
+      "path": "src/fanfare_timing.hpp",
+      "bytes": 1038,
+      "sha256": "7a6860fe391bcdf8d4ef40fb272a17dbf65dc006b7ee135a5c05384bbaa3854b"
+    },
+    {
+      "path": "src/flight.cpp",
+      "bytes": 106406,
+      "sha256": "99413548eab660234996c352ab75324a8f3b7a9d0fb4630b68160416937a539a"
+    },
+    {
+      "path": "src/flight_input.cpp",
+      "bytes": 6740,
+      "sha256": "9b134da6cc320d5b9761da1aeed072cf88bd277abd9f8ae5f74d9021ce84f427"
+    },
+    {
+      "path": "src/flight_input.hpp",
+      "bytes": 831,
+      "sha256": "1de144a3f756d2af5fa659bb05cca84b999919a480a5c14d93cf163a638b0068"
+    },
+    {
+      "path": "src/flight_work.cpp",
+      "bytes": 21174,
+      "sha256": "00c51c8d9db24c9dd02b5732014a85994bff4dacfe84c9b24784d470b7854ee2"
+    },
+    {
+      "path": "src/flight_work.hpp",
+      "bytes": 2157,
+      "sha256": "9c7cafd333c5a6ad59822365a4b0f1c2f9150e5bb5509f51092e6a5d9204896a"
+    },
+    {
+      "path": "src/frontend.cpp",
+      "bytes": 21939,
+      "sha256": "282a70308a683572d9c97273eef1085d03d81dd467f89099ae34812e50643bd8"
+    },
+    {
+      "path": "src/gameplay.cpp",
+      "bytes": 12900,
+      "sha256": "2625740d2d685f199e3219855cb8c256acae78b86b73fbb46c7713718ae3701f"
+    },
+    {
+      "path": "src/keyboard.cpp",
+      "bytes": 5456,
+      "sha256": "3d6165479f561ba08dbdbdfa05d56e68fa95c0c208116bb5fe23ac4ac542d35c"
+    },
+    {
+      "path": "src/loading_work.cpp",
+      "bytes": 11993,
+      "sha256": "4f279face4c49434dcaf39a2d99fae4996e97c476e39fd9688207fe499681ec8"
+    },
+    {
+      "path": "src/loading_work.hpp",
+      "bytes": 1137,
+      "sha256": "b9d4cf16353efe60c007a9160da847f7dffb7391576b2ea4ce072ca0bc614b33"
+    },
+    {
+      "path": "src/menu_entry_timing.cpp",
+      "bytes": 2970,
+      "sha256": "091e8a7d800b8ff5ad17feb3335602d42b467d69b09f55e338991f9420a5be39"
+    },
+    {
+      "path": "src/menu_entry_timing.hpp",
+      "bytes": 559,
+      "sha256": "9f2b39c73190c59f58b797ef12ba07ff8b0cfd314d40009b9bee08a89cca9821"
+    },
+    {
+      "path": "src/menu_input.cpp",
+      "bytes": 1289,
+      "sha256": "15a31394b090460bc4ec19296115a3c493c1a89a700b4c3b0d710aa5834fb809"
+    },
+    {
+      "path": "src/menu_input.hpp",
+      "bytes": 156,
+      "sha256": "74bef76c7043a544a01db99e359b8764f0614a12d1220c9cebae2641706a0f8e"
+    },
+    {
+      "path": "src/menu_renderer.cpp",
+      "bytes": 23515,
+      "sha256": "7274a36bb041d9056dcdade2fd818f1fa2d4687f140f5460889b17ffbdbc694c"
+    },
+    {
+      "path": "src/menu_work.cpp",
+      "bytes": 6276,
+      "sha256": "d42cf2b2440d4324e09d3039d5ec7b4b97303cca98991cc84d4655a0b2c3b5d0"
+    },
+    {
+      "path": "src/menu_work.hpp",
+      "bytes": 605,
+      "sha256": "d7d4ee1eb5cf37a184da8dc37d87f4e5cae98ac62ef877c4a0ed024e58bf21e7"
+    },
+    {
+      "path": "src/mission.cpp",
+      "bytes": 7996,
+      "sha256": "13d7d04cc02033de78d385a0320d5e95995d0d2c7deecb28f9a5e77ac17cdd13"
+    },
+    {
+      "path": "src/mission_loading.cpp",
+      "bytes": 11479,
+      "sha256": "7f870ed39c5c9c66d354c2819d4d5262a188275ffb339e3de16666daf28fd56e"
+    },
+    {
+      "path": "src/mission_loading.hpp",
+      "bytes": 294,
+      "sha256": "07107e4fe767aff9dfd7ed76439b392115694b52d62d62725cdd492f5e45458e"
+    },
+    {
+      "path": "src/mission_work.cpp",
+      "bytes": 10361,
+      "sha256": "aaf8a7999f49c6bb5ea7386121402ab3f1a87ea8ed27d61614a8c26fd993d177"
+    },
+    {
+      "path": "src/mission_work.hpp",
+      "bytes": 337,
+      "sha256": "b7505c3d8aff5a8a517502c30ec83971ea10d279b6af33725446f984b131c6f0"
+    },
+    {
+      "path": "src/model_raster.cpp",
+      "bytes": 3737,
+      "sha256": "dd02aad3fee3c684af7e24edaca23efff2237b237fb9d49a61a3f724fbd1748d"
+    },
+    {
+      "path": "src/model_raster.hpp",
+      "bytes": 640,
+      "sha256": "a5128d3c3fe36cde18d3037eb722c480de2817abadaf5d73bb968bc6eb27e761"
+    },
+    {
+      "path": "src/model_work.cpp",
+      "bytes": 4669,
+      "sha256": "69cf7687729e578bdff625177affd0a3710cd82b9cdc1102579ca3ec2c65b32f"
+    },
+    {
+      "path": "src/model_work.hpp",
+      "bytes": 612,
+      "sha256": "af8bbbacfefc3cadf17bf009fa61ffaa0c1b82b88588b21e05f6873e7893eaca"
+    },
+    {
+      "path": "src/movie_timing.cpp",
+      "bytes": 3509,
+      "sha256": "074240bf2db9b4e5f7a5eb1c37b064fcf3b559c239bd0b81f024f65145ab929a"
+    },
+    {
+      "path": "src/movie_timing.hpp",
+      "bytes": 541,
+      "sha256": "b675d6d107444763a01afd6f478e4bb66b380b9b3e4a3b158055d33e01292188"
+    },
+    {
+      "path": "src/opl_timing.hpp",
+      "bytes": 2213,
+      "sha256": "09584f333e67fc6fc3a5321730277a3c96066a7c643e27c2275260f972807e4a"
+    },
+    {
+      "path": "src/options.cpp",
+      "bytes": 8687,
+      "sha256": "9ac50ad2efc7c733e72e5bfd7b6db7012a0f08101f348255b69f32f7a3c3ba17"
+    },
+    {
+      "path": "src/pilot.cpp",
+      "bytes": 20764,
+      "sha256": "227871227b34e33cc5f5e10101a8b28ad6970cdc6d991ab7872d0e1678c68f70"
+    },
+    {
+      "path": "src/pilot_presentation.hpp",
+      "bytes": 258,
+      "sha256": "e36b7d697fe5bdef6635b639239603cee3a846f8832accd22ff2692a7da79f09"
+    },
+    {
+      "path": "src/pit0_timing.hpp",
+      "bytes": 994,
+      "sha256": "daed2e5ae2f1d3ebdaf43596ecb40c03f2745ac0ea17bbb35f7ff97e223210b7"
+    },
+    {
+      "path": "src/pit2_timing.hpp",
+      "bytes": 2025,
+      "sha256": "7c0c193379834f2ef11a59774d49fe84606c9867d8f59ccbdb170f441336c23d"
+    },
+    {
+      "path": "src/playback.cpp",
+      "bytes": 11860,
+      "sha256": "855092a3744d17485cf6a9fa0a952090bfb6a97b3b16aa4135a836cd269bef51"
+    },
+    {
+      "path": "src/rtc_timing.hpp",
+      "bytes": 1523,
+      "sha256": "e947dee039e36678dc4cc07a5a45bc29f79d3d8bd675a1323c3125889a74a6a7"
+    },
+    {
+      "path": "src/scene.cpp",
+      "bytes": 15668,
+      "sha256": "eacf513f886cc71098be27a5b10093bab2dc76c45abfbff7eb98541d1e1ed932"
+    },
+    {
+      "path": "src/session.cpp",
+      "bytes": 25071,
+      "sha256": "6aeb1514657afb2204b30529f1315fce59b8fb84a16f168d99a0211c222b03bd"
+    },
+    {
+      "path": "src/sound_device.cpp",
+      "bytes": 1855,
+      "sha256": "42f87567bedca32ba00821063948abf1162de5fa394e7439310f9e34ae92ec99"
+    },
+    {
+      "path": "src/startup_resource.cpp",
+      "bytes": 2833,
+      "sha256": "7e850105fdcc1464d1e1427ca72a2991bda9ded5c4947d57191a0fe4c6dc98fa"
+    },
+    {
+      "path": "src/startup_resource.hpp",
+      "bytes": 346,
+      "sha256": "001b70c1ee20229341ca33f433f52c278d3e3559c9dd7078fe4de7200994ab48"
+    },
+    {
+      "path": "src/startup_storage.cpp",
+      "bytes": 2758,
+      "sha256": "1d4e22a671aa03d03cff8e05524c5d9a9c3b6a9972fb43dab9d1ada2328c5941"
+    },
+    {
+      "path": "src/startup_storage.hpp",
+      "bytes": 500,
+      "sha256": "104f1b1f225e3e9608cb76f10f8ccfffd9bcd9fc219f35aeda68120dfb1b8306"
+    },
+    {
+      "path": "src/startup_timing.cpp",
+      "bytes": 30023,
+      "sha256": "85491c9496e28f0e577806db7d48741f7725912ac7bea5d2071ebfb4ae46db0c"
+    },
+    {
+      "path": "src/startup_timing.hpp",
+      "bytes": 2104,
+      "sha256": "04142375c588f3eac6bd28332f2c111050400f91cab85543d9612bc405140ed3"
+    },
+    {
+      "path": "src/timing.cpp",
+      "bytes": 1569,
+      "sha256": "858d62642e216469f8f6578ca0c354c1ef89d4d35588af8a291696d70046b180"
+    },
+    {
+      "path": "src/training.cpp",
+      "bytes": 39963,
+      "sha256": "fc5444b6407e9df590f0f5adf70b7cb46444c2d3aa6829f45baf81fdc408b6ad"
+    },
+    {
+      "path": "src/video_clock.hpp",
+      "bytes": 2952,
+      "sha256": "c8df0d04ad31c91b1555dd24b09098d3026a853b5c3cbb1b5c06827bb38e4ccd"
+    },
+    {
+      "path": "src/world_renderer.cpp",
+      "bytes": 34660,
+      "sha256": "e1a6620cedaa1b364a220e02ad414b5d0e954ec77426075c485614e49a053247"
+    },
+    {
+      "path": "tests/assets_probe.cpp",
+      "bytes": 2778,
+      "sha256": "a2a37219b2dc198ad94e45218533a262534c4e67387c3a581071dffb7c1af862"
+    },
+    {
+      "path": "tests/assets_tests.cpp",
+      "bytes": 1908,
+      "sha256": "87f3d7dc7806e233e89b46b194b5d9455304f66e2b3357fd1654513f002f9b9e"
+    },
+    {
+      "path": "tests/audio_output.hpp",
+      "bytes": 1994,
+      "sha256": "a08831b7bea1f3e1693e8f34cca5726133c8f8f3d4caa6f9c2abf0df9b6bae53"
+    },
+    {
+      "path": "tests/audio_probe.cpp",
+      "bytes": 4086,
+      "sha256": "d262f35ae95f8a68bf5475de3e42c3363691b12cedec3155c978bf6d78e16263"
+    },
+    {
+      "path": "tests/audio_scheduler_tests.cpp",
+      "bytes": 36293,
+      "sha256": "3719b7cc53e5217d7994a0a17bff98222702b02ec636d57546711d0cf9f48ecf"
+    },
+    {
+      "path": "tests/audio_tests.cpp",
+      "bytes": 28937,
+      "sha256": "46f1cdfe59fdf1d468af25f6a434daef6197b7505d92cbd40b7619d93241848e"
+    },
+    {
+      "path": "tests/callback_audio_probe.cpp",
+      "bytes": 4108,
+      "sha256": "174b8d5125a0ef2f4ca03a4e70e8789d3c3c8c815329878a30fd1e45ca5fce4b"
+    },
+    {
+      "path": "tests/callback_audio_tests.cpp",
+      "bytes": 2743,
+      "sha256": "9f23829ab3d96aa7aa028e5edb8846c037c47b304e13556b3d737c58685cf133"
+    },
+    {
+      "path": "tests/cinematic_probe.cpp",
+      "bytes": 1899,
+      "sha256": "ac30da8d9b860ce3f78491dbf0037bb1116db6055b16fab84e18da6b08180c88"
+    },
+    {
+      "path": "tests/cockpit_probe.cpp",
+      "bytes": 15478,
+      "sha256": "6f8e674e7c71342567a20bd090a6fb69abe7acb77c921f37d43f1b6060cd13f1"
+    },
+    {
+      "path": "tests/cockpit_tests.cpp",
+      "bytes": 13238,
+      "sha256": "7431bf8fc26317764867297ebe398d9e00c67c07a5cee6882d5fc9afbb28dbc8"
+    },
+    {
+      "path": "tests/cold_audio_tests.cpp",
+      "bytes": 5656,
+      "sha256": "52da1d557be6d1f24e871bf8f29ca3e2343ce010783cb85cf378fd0bc42a27df"
+    },
+    {
+      "path": "tests/collision_tests.cpp",
+      "bytes": 8249,
+      "sha256": "305eb2716d29a593850774ac19695a09c9ece961d7a4f2508483cca6a550901a"
+    },
+    {
+      "path": "tests/combat_probe.cpp",
+      "bytes": 3124,
+      "sha256": "5f932e302c51085576d3c5373a1537feb2038e25d49163cca08f967656c0cdbe"
+    },
+    {
+      "path": "tests/combat_tests.cpp",
+      "bytes": 2914,
+      "sha256": "08604c118a96efe1af13c113f438e8ebe6351fa83c2b01b1812cd5879b942cd8"
+    },
+    {
+      "path": "tests/completion_probe.cpp",
+      "bytes": 12281,
+      "sha256": "49ad5a0aeb3c0e94746b418ce7b8f8c08ac2c4ad88e6f8567290eb40aee6b1d9"
+    },
+    {
+      "path": "tests/contact_probe.cpp",
+      "bytes": 14641,
+      "sha256": "672a5003ec19174351b7ef6916586cee07f5a005f3f88ac1027cfd7fabd51d00"
+    },
+    {
+      "path": "tests/controller_work_tests.cpp",
+      "bytes": 5052,
+      "sha256": "0377882dcd8583a6dde65dc8dcee4ce62345377276dfa43025bd384c6d627900"
+    },
+    {
+      "path": "tests/debrief_probe.cpp",
+      "bytes": 5176,
+      "sha256": "4c1d90135125a67b2d53354e74e43712e92439524f047ad49c98fc1834cbfb5a"
+    },
+    {
+      "path": "tests/debrief_tests.cpp",
+      "bytes": 4313,
+      "sha256": "697c7f23279b26e2ebebb989ab6a794dcce4fbd8a3b2f599b48977d825c6dcdc"
+    },
+    {
+      "path": "tests/demo_camera_probe.cpp",
+      "bytes": 1947,
+      "sha256": "33f37f388665a58821536729560859406324d40e1f29eea8977761c5589b991e"
+    },
+    {
+      "path": "tests/demo_tests.cpp",
+      "bytes": 10015,
+      "sha256": "48acd417e58cd2c93769417db3b8699ab0230c21c9f7ce9e6b8749c46b8d0b33"
+    },
+    {
+      "path": "tests/effects_probe.cpp",
+      "bytes": 4891,
+      "sha256": "0819de195df70c2d2f631a8bc1aff56d4a9fa7884ba8069afd0f90d976da7529"
+    },
+    {
+      "path": "tests/effects_tests.cpp",
+      "bytes": 4151,
+      "sha256": "43dcc352bbd4aa8ad5aaae8c1559498f895f427e7418dd97906f6bc3daad1248"
+    },
+    {
+      "path": "tests/entity_clock_tests.cpp",
+      "bytes": 14378,
+      "sha256": "acd4abdb9e02e78d73b2048b36bbd4174fec01da80d0a10425c796bf7a363825"
+    },
+    {
+      "path": "tests/fanfare_timing_tests.cpp",
+      "bytes": 3343,
+      "sha256": "b753f8fbd3ffb1f9e71c7d462c362e81e09ed319f2dc2c19b94fa3245d21825d"
+    },
+    {
+      "path": "tests/flight_tests.cpp",
+      "bytes": 20766,
+      "sha256": "5de3f71779a7ea7114763c9662d768dada75312d7b9d85f1010b0c3e28b95fd1"
+    },
+    {
+      "path": "tests/flight_work_probe.cpp",
+      "bytes": 7421,
+      "sha256": "b762a44fcb1789daa249ad8d60efc1d7a4759a7f43318db9ba290079938e96a2"
+    },
+    {
+      "path": "tests/flight_work_tests.cpp",
+      "bytes": 7605,
+      "sha256": "5635ad41f4dcba574b4c8616e4dec798b73bf803e5c91c35da60eaceb05a0ce8"
+    },
+    {
+      "path": "tests/frontend_probe.cpp",
+      "bytes": 13588,
+      "sha256": "2a7a510631825e5d3143bec5f061e694565c85d6f66a433dfb58d16ca13f1305"
+    },
+    {
+      "path": "tests/frontend_tests.cpp",
+      "bytes": 3960,
+      "sha256": "ca52209ae2f45056054de2c37c28d478fbce16346b1e3770fac7265d935bd13b"
+    },
+    {
+      "path": "tests/gameplay_tests.cpp",
+      "bytes": 4851,
+      "sha256": "bb6bb00fbdda303eea0c293d7b981997c772b86b3ba5d0483ea03fb2561ed8ad"
+    },
+    {
+      "path": "tests/irq7_wave_tests.cpp",
+      "bytes": 6353,
+      "sha256": "2373dc7018beb932b06f9cf642684b9f40e2a72d962cf67d1a144e86df2e0f50"
+    },
+    {
+      "path": "tests/keyboard_tests.cpp",
+      "bytes": 5378,
+      "sha256": "acf4e7e6488860fba711eb89cc34a56757ae956ae47a9342680ff139b88eb8cb"
+    },
+    {
+      "path": "tests/loading_clock.hpp",
+      "bytes": 1024,
+      "sha256": "5daf16fea5e415713027f73c38eb398506fe195886d29dc2fc5a2251f8b5cc85"
+    },
+    {
+      "path": "tests/loading_work_probe.cpp",
+      "bytes": 7667,
+      "sha256": "9910347804fc198eb43f987281e7a7334e3780b412e4fdd01430f5db068798a0"
+    },
+    {
+      "path": "tests/loading_work_tests.cpp",
+      "bytes": 5675,
+      "sha256": "d7b7e89a1cd3f346fd5c60f5c9c6b964a82cebc34fc301eb30f037b51af0e1d1"
+    },
+    {
+      "path": "tests/menu_entry_tests.cpp",
+      "bytes": 6116,
+      "sha256": "dc4b5338164bd5d11078bb4278f44e53283bcbd97d5cab1a8e2da07648399d75"
+    },
+    {
+      "path": "tests/menu_work_tests.cpp",
+      "bytes": 6756,
+      "sha256": "a2c7e84a38826c92ce9780594079e50569c01ad7bcdc6da99679ab1f39dd7dee"
+    },
+    {
+      "path": "tests/mission_catalog_probe.cpp",
+      "bytes": 4641,
+      "sha256": "4c2c8a3521834290564673fb97f93dc9449a212854ce606dea23d57123664b21"
+    },
+    {
+      "path": "tests/mission_route_probe.cpp",
+      "bytes": 3482,
+      "sha256": "5c54b3941a9b8c35c97024d2fa7c205237ba892e81b6c46b2d976c7f5bc2dd32"
+    },
+    {
+      "path": "tests/mission_tests.cpp",
+      "bytes": 11135,
+      "sha256": "7b50ff5f3cfd7a275ca1f8da0639ba69274d8dbac460c9821e0cbc55e6053f3c"
+    },
+    {
+      "path": "tests/mission_work_tests.cpp",
+      "bytes": 2854,
+      "sha256": "b391d672317e9cf3c731f6375f7d9f781fb5a722b77a75f1c43ace8c0544958c"
+    },
+    {
+      "path": "tests/model_raster_tests.cpp",
+      "bytes": 5681,
+      "sha256": "df4b7254f63447aafd57dc7151ef4213c312e4fc4c95269f45f226d41f8f6d9a"
+    },
+    {
+      "path": "tests/model_work_tests.cpp",
+      "bytes": 5009,
+      "sha256": "715262968f4a1c1c67eb5c1fb5252883e135740c5b9ff49dd47240f5007a7b7e"
+    },
+    {
+      "path": "tests/movie_work_probe.cpp",
+      "bytes": 1984,
+      "sha256": "cd3fb2d091621b46080b01d2cfeba5e3a7daf1518d276e5cd901ac0708ae6c1f"
+    },
+    {
+      "path": "tests/music_work_probe.cpp",
+      "bytes": 2814,
+      "sha256": "b0a756ae6346f926b96da07df638aa185b76018ae7c256927f877813026ace03"
+    },
+    {
+      "path": "tests/openxr_runtime_tests.cpp",
+      "bytes": 6118,
+      "sha256": "2d66792619e8ac0def0bb5221a5a8a4c621522b428b8ce8cc38fa1e299b14b9a"
+    },
+    {
+      "path": "tests/options_probe.cpp",
+      "bytes": 2793,
+      "sha256": "3cfd6337d3798c6421e88bdc63529bda5640ff9734efa5415b313ce349c8a675"
+    },
+    {
+      "path": "tests/options_tests.cpp",
+      "bytes": 6489,
+      "sha256": "4b81eb11247b74cfe234fb7032db884403e535d43c5a7f21da09b7ddcec1cb5f"
+    },
+    {
+      "path": "tests/pilot_probe.cpp",
+      "bytes": 7928,
+      "sha256": "f0764dd709dca4afb8a58c40e296f3f68f90d4b06dcf51f8fc70f21fb015a675"
+    },
+    {
+      "path": "tests/pilot_tests.cpp",
+      "bytes": 5769,
+      "sha256": "ccec0a6164790c8eda3658aa13d2fd53a8e3089a24f96c1cc7406396dbc76d00"
+    },
+    {
+      "path": "tests/playback_probe.cpp",
+      "bytes": 1340,
+      "sha256": "c638ea73f7b4e634263ff9c47c64ba8226f0489c71197c332fa3a513932bdb14"
+    },
+    {
+      "path": "tests/playback_resource_probe.cpp",
+      "bytes": 2397,
+      "sha256": "187db2f6c8dccd1465d212b4b7ff0ec5708c19b88677c710675ec53a1b770407"
+    },
+    {
+      "path": "tests/playback_resource_tests.cpp",
+      "bytes": 5897,
+      "sha256": "781cef8f24cac1f0dcc7c34360723a5316a4cb15e06725954abf9807c3b7261f"
+    },
+    {
+      "path": "tests/playback_tests.cpp",
+      "bytes": 1964,
+      "sha256": "6483cfee5580a138b4613d16b3645cd0b0e61413f16332b66e2396721bead1f4"
+    },
+    {
+      "path": "tests/post_start_tests.cpp",
+      "bytes": 8651,
+      "sha256": "87c7566ead0e68e0f6d993294d1e37adc0d425d99838a670641e7b5cb9f016d7"
+    },
+    {
+      "path": "tests/presentation_tests.cpp",
+      "bytes": 3256,
+      "sha256": "350abf60fd016ee2b1a02a6df8024a5be278c0bca1a195ff9b209672a048463a"
+    },
+    {
+      "path": "tests/render_probe.cpp",
+      "bytes": 7149,
+      "sha256": "cd026b741966fba25a0b5e20daed484ae1d464faf26641d2590ac99e07e86394"
+    },
+    {
+      "path": "tests/renderer_tests.cpp",
+      "bytes": 5338,
+      "sha256": "df3dfeaab1c5c7bf42735b62a9295462ebcd12a0715d4ca0e35868c6eb63dc34"
+    },
+    {
+      "path": "tests/scene_output.hpp",
+      "bytes": 2342,
+      "sha256": "92d61bc2585ce15b84aa2dec44f4cfd1997e0670ed47cefb7614641aaffd53e5"
+    },
+    {
+      "path": "tests/scene_tests.cpp",
+      "bytes": 6738,
+      "sha256": "1d8fe7d6394f8982d7a8e22a540c0d41224a7ba779af54de9b2a704ca8ad9c67"
+    },
+    {
+      "path": "tests/scenery_effects_probe.cpp",
+      "bytes": 4297,
+      "sha256": "bf71604f5a0b096a6d16fcf87d35b492e79cbcfe0e2944fd2110d002b9006cc1"
+    },
+    {
+      "path": "tests/scenery_probe.cpp",
+      "bytes": 2228,
+      "sha256": "2aa22df30f166a3548d23cf75ae575fdd92410bad09b2b1078bfdec84cba3ead"
+    },
+    {
+      "path": "tests/sdl_controller_tests.cpp",
+      "bytes": 8218,
+      "sha256": "a8c17c95d62d076ef2753c6f639df9f3b3cb959dbdded003d6f128764837a424"
+    },
+    {
+      "path": "tests/sdl_host_tests.cpp",
+      "bytes": 13737,
+      "sha256": "9198a25e03c5341514f5251aedb7343fb048bf7356a5e70c4f5ffb598da240e5"
+    },
+    {
+      "path": "tests/sdl_keyboard_route.cpp",
+      "bytes": 21264,
+      "sha256": "a95e3c6a90adf2993d53d25651ba2b75a57f89cdc5583fdd65530fc258d0dd08"
+    },
+    {
+      "path": "tests/session_tests.cpp",
+      "bytes": 20534,
+      "sha256": "472e1511a291d5ae8f9bab4d798bb0bc34859174c34c090c0e5c0759d4d32032"
+    },
+    {
+      "path": "tests/setup_output.hpp",
+      "bytes": 4225,
+      "sha256": "928ddafa3fb61d0b87a48fe2e13ef2687311adc5ed85723b781926cae481e1fd"
+    },
+    {
+      "path": "tests/sound_device_probe.cpp",
+      "bytes": 2111,
+      "sha256": "16caa09d137c484428ce4fc72d240c425b8bd93f977e2b180fd19c122934df0b"
+    },
+    {
+      "path": "tests/startup_input_tests.cpp",
+      "bytes": 8429,
+      "sha256": "8654853deb98baa6cc4d9ffac4e956ca62ea4c633bd1e802550c632293edeb6f"
+    },
+    {
+      "path": "tests/startup_storage_tests.cpp",
+      "bytes": 3718,
+      "sha256": "45999ce3dd2678f39248c00cd63eeeb7a798828b5bedc1dfbaa804e51cd3bb48"
+    },
+    {
+      "path": "tests/startup_timing_tests.cpp",
+      "bytes": 8983,
+      "sha256": "aaaef58a10c7db306147325b67ef74bc803744c31749feeb6da360314ad7f41e"
+    },
+    {
+      "path": "tests/targeting_probe.cpp",
+      "bytes": 3190,
+      "sha256": "c59545b54b2c54c34ee2659fa969e92b52ca034e90463e6afabbd79d0cf0a100"
+    },
+    {
+      "path": "tests/timing_probe.cpp",
+      "bytes": 968,
+      "sha256": "6c571b142800052bbaff642387927941f0bac58163f7c8a8ed6e0e9ba4c8a583"
+    },
+    {
+      "path": "tests/timing_tests.cpp",
+      "bytes": 6081,
+      "sha256": "0bebaca81bee8b49657a38214042a2af6e418ca8dc62f095bfc096b1571d65aa"
+    },
+    {
+      "path": "tests/training_route.hpp",
+      "bytes": 2672,
+      "sha256": "78cfd674c45a6d4e1f298b87e0088ea7e52e0f40ba91aaa8c8b0764c03135f5a"
+    },
+    {
+      "path": "tests/training_tests.cpp",
+      "bytes": 20500,
+      "sha256": "f7dca4898ba4d982eca52f61b66c9e6de89a69f791e6eddba731c02f5a96f799"
+    },
+    {
+      "path": "tests/viewer_tests.cpp",
+      "bytes": 12818,
+      "sha256": "09710951a5b644b55bdb594b9140f4b6b7461a396e484f6fff27fce3c50cecaf"
+    },
+    {
+      "path": "tests/weapons_tests.cpp",
+      "bytes": 12105,
+      "sha256": "ca51bdd53502b31577a2e06171502cdc17af1692ec98d7ba7f45af9c8e5b44b3"
+    },
+    {
+      "path": "tests/world_output.hpp",
+      "bytes": 2117,
+      "sha256": "ab63ddd4915fbe1ce0ca7715f272386c83d9db6b6ff4453bf3a51d19a963d0b5"
+    },
+    {
+      "path": "tests/world_renderer_tests.cpp",
+      "bytes": 9699,
+      "sha256": "787b0530a4df4adecac8e172c5a6d55deb49a590ae13505e6146bd27441c339f"
+    },
+    {
+      "path": "tests/world_runtime_probe.hpp",
+      "bytes": 6114,
+      "sha256": "6377df059bd620790237524c2bc309ea314bef71c8ad74c23b47d06aa92b230c"
+    },
+    {
+      "path": "tests/world_view_probe.hpp",
+      "bytes": 2820,
+      "sha256": "8e979d599a12ff587b51cb639c8e98267487e447c699457370930a50d8993216"
+    },
+    {
+      "path": "third_party/dbopl/COPYING",
+      "bytes": 17995,
+      "sha256": "8674f5aabf4dd033831e7148a39184d8579e50c385da61a7d8bac6a5dd11c6da"
+    },
+    {
+      "path": "third_party/dbopl/dbopl.cpp",
+      "bytes": 42772,
+      "sha256": "b610fbfc4dd891c39724b5798919c6c6d30b96aa982e807d3d858a6466029ddb"
+    },
+    {
+      "path": "third_party/dbopl/dbopl.h",
+      "bytes": 7680,
+      "sha256": "4137e4a8542f149f05eefde0b259815247f2e1b439cab60adf6ad3db50bd27bc"
+    },
+    {
+      "path": "third_party/dbopl/README.md",
+      "bytes": 769,
+      "sha256": "3568e6c60af11dfc921103c97bab7ad72d7103f19318ae4487aa28756d39aa2a"
+    },
+    {
+      "path": "third_party/SDL2-LICENSE.txt",
+      "bytes": 884,
+      "sha256": "97f35b302b361680ec1e891e95d2d52097bb95abff361434916d99dc1305f127"
+    },
+    {
+      "path": "third_party/toolchain/GCC-COPYING3.txt",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "path": "third_party/toolchain/GCC-RUNTIME-EXCEPTION.txt",
+      "bytes": 3324,
+      "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74"
+    },
+    {
+      "path": "third_party/toolchain/MINGW-COPYING.txt",
+      "bytes": 2326,
+      "sha256": "99a69660981156c21336fdb5661f89341b013c94e4bf9e1c7467b4745718397f"
+    },
+    {
+      "path": "third_party/toolchain/MINGW-RUNTIME-NOTICES.txt",
+      "bytes": 10936,
+      "sha256": "e9b2dc02451ea29092a1f25fa0f3c07207ed421f1807dffb0c4e6dce69dee7bd"
+    },
+    {
+      "path": "third_party/toolchain/README.md",
+      "bytes": 1233,
+      "sha256": "0fdc944c840ae31c56366423f28a6b7e06e04e973caeebb0afa247ca7b77b28b"
+    },
+    {
+      "path": "third_party/toolchain/WINPTHREADS-COPYING.txt",
+      "bytes": 2883,
+      "sha256": "63263614cdd29f2f93cba85e992f041b31f9fc7b4033692f31269489a8a1b177"
+    },
+    {
+      "path": "third_party/ymfm/LICENSE",
+      "bytes": 1548,
+      "sha256": "2e2f78d3c4f92339463f1c7e54c93fb929dfd8c21b07ae0cc51397a582fe6cd5"
+    },
+    {
+      "path": "third_party/ymfm/README.md",
+      "bytes": 378,
+      "sha256": "778f9245b2963d1d669397b4e82a945377e288e4ee18669ad0f89c7c34fdb118"
+    },
+    {
+      "path": "third_party/ymfm/ymfm.h",
+      "bytes": 19120,
+      "sha256": "3a9e5d7cf5f5c358c2308eb140b253b205447fb23ab95a2604b9064f10c6a4d3"
+    },
+    {
+      "path": "third_party/ymfm/ymfm_adpcm.cpp",
+      "bytes": 22847,
+      "sha256": "7c6c0676f9be459bd2cbbfa54f89127631e6778fedd25ff08260096bd9243871"
+    },
+    {
+      "path": "third_party/ymfm/ymfm_adpcm.h",
+      "bytes": 14163,
+      "sha256": "ac2338cf7a98ddcd10d892510eb7a188245df4ca645ef0bc397284f0f362ae0a"
+    },
+    {
+      "path": "third_party/ymfm/ymfm_fm.h",
+      "bytes": 18168,
+      "sha256": "551c60d7615f652fa6f6c78a858c0fd0c0bc81781223d87937c63cb14ae4b85d"
+    },
+    {
+      "path": "third_party/ymfm/ymfm_fm.ipp",
+      "bytes": 60828,
+      "sha256": "83ef865d9f98dc4f2602b40c63ee36cf47d20da25a72e01b58222a7b91cc09c8"
+    },
+    {
+      "path": "third_party/ymfm/ymfm_opl.cpp",
+      "bytes": 67623,
+      "sha256": "b650b56c3948d2a5bf45f55485a20be9651fba9a107eb43d2963aa4db671f89d"
+    },
+    {
+      "path": "third_party/ymfm/ymfm_opl.h",
+      "bytes": 33578,
+      "sha256": "8d0b9a534faeeca73765dbb0073523def9ef3de640dd4389eec79cf3330588d7"
+    },
+    {
+      "path": "third_party/ymfm/ymfm_pcm.cpp",
+      "bytes": 22398,
+      "sha256": "1bb1998cd9387b81c6f27106097c2323a1c595a3dffac2b41b461d522ee2a36c"
+    },
+    {
+      "path": "third_party/ymfm/ymfm_pcm.h",
+      "bytes": 13227,
+      "sha256": "e61f5595beeb0514962c3453dc4569b7b551cd3dd774f5651666f3d3e50658d6"
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "bytes": 2210,
+      "sha256": "558a96cb9f7c0b587208c6640b101547018d7c5a44cffd40ceaa5a39ce0f2554"
+    }
+  ]
+}
